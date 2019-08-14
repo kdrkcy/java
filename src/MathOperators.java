@@ -1,10 +1,10 @@
-import java.util.Scanner;
+
 
 public class MathOperators {
 	
 	public static void main(String[] args) {
 		
-		Scanner bucky = new Scanner(System.in);
+		
 		
 		double girls, boys, people,module;
 		int ratio;
