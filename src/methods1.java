@@ -1,15 +1,15 @@
 public class methods1{
-	private String father;
+	private String mother;
 	public void setName(String name) {
-		father=name;
+		mother=name;
 	}
 	
 	public String getName() {
-		return father;
+		return mother;
 	}
 	
 	public void saying() {
-		System.out.println("your father's name is " +getName());
+		System.out.println("your mother's name is " +getName());
 	}
 	
 }
