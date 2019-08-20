@@ -1,3 +1,5 @@
+//Write a Java program to convert seconds to hour, minute and seconds
+
 package examples.secondtotimetable;
 
 
@@ -20,4 +22,3 @@ public static void main(String[] args) {
 }
 
 }
-///1;12;33
