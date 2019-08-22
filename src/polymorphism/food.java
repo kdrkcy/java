@@ -1,8 +1,7 @@
 package polymorphism;
 
-public class food {
+abstract public class food {
   
-  public void eat() {
-	  System.out.println("eat method");
-  }
+  public abstract void eat() ;
+  
 }
