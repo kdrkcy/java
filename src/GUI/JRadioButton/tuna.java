@@ -59,8 +59,8 @@ public class tuna  extends JFrame{
 		private Font font;
 		
 		
-		public HandlerClass(Font f) {
-			font = f;
+		public HandlerClass(Font x) {
+			font = x;
 		}
 	
 	

@@ -7,7 +7,7 @@ public class main {
 		
 		tuna tunaObject= new tuna();
 		tunaObject.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		tunaObject.setSize(300, 200);
+		tunaObject.setSize(350, 200);
 		tunaObject.setVisible(true);
 	}
 }
