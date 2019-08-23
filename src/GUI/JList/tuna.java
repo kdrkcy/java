@@ -23,7 +23,7 @@ public class tuna extends JFrame{
 				new ListSelectionListener() {
 					
 					public void valueChanged(ListSelectionEvent event) {
-						getContentPane().setBackground(colors[1]);
+						getContentPane().setBackground(colors[list.getSelectedIndex()]);
 					}
 					
 				}
