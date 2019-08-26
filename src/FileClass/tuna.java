@@ -23,6 +23,7 @@ public class tuna {
 	public void closeFile() {
 		y.close();
 	}
+	
 	private Scanner s;
 	public void openFile() {
 		
