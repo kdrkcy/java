@@ -18,7 +18,8 @@ public class addAll {
 		l2.add("facebook");
 		
 		Collections.addAll(l2, array);
-		System.out.printf("%s",l2);
+		for(String n: l2)
+		System.out.printf("%s  ",n);
 		
 	}
 }
