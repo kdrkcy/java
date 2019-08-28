@@ -8,6 +8,7 @@ public class genericmethod {
 	 
 	 printMe(ray);
 	 printMe(charay);
+	 System.out.println(max(12,344,56));
 	 
 	  }
  
@@ -18,6 +19,14 @@ public class genericmethod {
 	 System.out.println();
  }
 
- 
+ public static <T extends Comparable<T>> T max(T a, T b ,T c) {
+	 T m=a;
+	 if(b.compareTo(m)>0)
+		 m=b;
+	 if(c.compareTo(m)>0)
+		 m=c;
+	 
+	 return m;
+ }
  
 }
